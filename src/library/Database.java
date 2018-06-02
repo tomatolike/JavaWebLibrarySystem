@@ -263,7 +263,7 @@ public class Database {
 		}
 	}
 	
-	public boolean doreturn(String username, int bid)
+	private boolean doreturn(String username, int bid)
 	{
 		int id = this.getuserid(username);
 		if(id==-1)return false;
